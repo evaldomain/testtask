@@ -17,4 +17,11 @@
             
             return $this->render('uzduotys/index.html.twig');
         }
+        /**
+         * @Route("/test")
+         */
+        public function test() {
+            
+            return $this->render('uzduotys/test.html.twig');
+        }
     }
